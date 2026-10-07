@@ -1,0 +1,6 @@
+{
+  "name": "Ad Solution BD",
+  "description": "Ad Solution BD provides Facebook Ads, Google Ads, TikTok Ads, website development and conversion tracking solutions to help businesses grow online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

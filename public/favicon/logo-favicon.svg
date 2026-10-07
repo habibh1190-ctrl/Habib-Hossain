@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100%" height="100%">
+  <!-- Rounded container background -->
+  <rect width="64" height="64" rx="14" fill="#0B1E48" />
+
+  <!-- Monogram centered inside -->
+  <g transform="translate(10, 8) scale(0.125)">
+    <!-- Letter 'A' (White) -->
+    <path d="M 165 60 L 70 260 L 115 260 L 150 182 L 186 182 L 195 160 L 140 160 L 175 88 Z" fill="#FFFFFF" />
+    <path d="M 165 60 L 225 185 L 195 185 L 180 152 L 170 130 Z" fill="#FFFFFF" />
+    <path d="M 218 190 L 265 260 L 220 260 L 192 208 Z" fill="#FFFFFF" />
+
+    <!-- 3 Growth Bar Chart Bars in the bottom base of 'A' -->
+    <rect x="115" y="232" width="15" height="28" rx="2.5" fill="#FFFFFF" />
+    <rect x="138" y="218" width="15" height="42" rx="2.5" fill="#FFFFFF" />
+    <rect x="161" y="202" width="15" height="58" rx="2.5" fill="#FFFFFF" />
+
+    <!-- Letter 'S' Upper Loop (Orange) -->
+    <path d="M 245 72 C 220 72 195 90 195 118 C 195 138 210 150 230 156 L 255 164 C 278 171 292 180 292 196 C 292 205 288 214 280 220 C 300 210 325 195 325 162 C 325 105 275 72 245 72 Z" fill="#FF5A00" />
+
+    <!-- Swooping Orange Arrow -->
+    <path d="M 118 200 C 175 198 250 168 312 108 L 302 100 L 348 95 L 340 142 L 328 128 C 272 178 202 214 118 200 Z" fill="#FF5A00" />
+
+    <!-- Letter 'S' Lower Loop (White) -->
+    <path d="M 245 185 C 220 185 200 200 195 218 L 222 218 C 226 210 234 205 245 205 C 265 205 278 218 278 234 C 278 248 268 260 248 260 L 180 260 C 190 282 215 295 250 295 C 298 295 330 268 330 230 C 330 200 305 185 245 185 Z" fill="#FFFFFF" />
+    <path d="M 185 220 C 185 248 205 260 230 260 L 230 242 C 218 242 210 235 210 224 C 210 218 214 212 220 208 L 205 195 C 192 202 185 210 185 220 Z" fill="#FFFFFF" />
+
+    <!-- Target / Bullseye in lower right of S -->
+    <g transform="translate(295, 260)">
+      <circle cx="0" cy="0" r="24" fill="none" stroke="#FFFFFF" stroke-width="5" />
+      <circle cx="0" cy="0" r="14" fill="none" stroke="#FFFFFF" stroke-width="4" />
+      <circle cx="0" cy="0" r="5" fill="#FF5A00" />
+      <path d="M 22 22 L 5 5 L 8 18 L 13 14 L 18 22 Z" fill="#FF5A00" stroke="#0B1E48" stroke-width="1.5" />
+    </g>
+  </g>
+</svg>
